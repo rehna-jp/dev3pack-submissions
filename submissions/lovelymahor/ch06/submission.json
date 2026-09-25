@@ -1,22 +1,23 @@
 {
   "schema": "dev3pack.submission.v2",
   "cohort": "2026-09",
-  "chapter": "ch05",
+  "chapter": "ch06",
   "student": {
-    "github": "250408900-maker"
+    "github": "lovelymahor"
   },
-  "submitted_at": "2026-09-23T06:42:24Z",
+  "submitted_at": "2026-09-24T09:51:07Z",
   "result": {
     "ran": true,
     "passed": [
-      "ch05-e1",
-      "ch05-e2"
+      "ch06-e2",
+      "ch06-e3",
+      "ch06-e1"
     ],
     "failed": [],
     "not_reached": [],
     "scored": true,
-    "score": 200,
-    "max_score": 200
+    "score": 300,
+    "max_score": 300
   },
   "note": "",
   "help": {
@@ -30,9 +31,8 @@
   },
   "evidence": {
     "notebook": "notebook.ipynb",
-    "notebook_sha256": "94f67a24b765d4ee1a7615f0546de77db80a11cd32e5176d4a5931777911d765",
-    "challenge_sha256": "42cae50bfa6ac9f60621e303dec3ba1a34d3fc6b81a40a6671dcad91804b4ad4"
+    "notebook_sha256": "23da3a50d53b1b3532b62060af73495af9c8ce81972c975c92e3b2c63a1c6a85"
   },
   "verified": null,
-  "submission_id": "sub_f8a318b95ff82bdac5889ae9"
+  "submission_id": "sub_5c3a6d8b1680a7fe887cd679"
 }

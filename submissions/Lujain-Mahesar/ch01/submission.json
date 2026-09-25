@@ -1,24 +1,23 @@
 {
   "schema": "dev3pack.submission.v2",
   "cohort": "2026-09",
-  "chapter": "ch05",
+  "chapter": "ch01",
   "student": {
-    "github": "250408900-maker"
+    "github": "Lujain-Mahesar"
   },
-  "submitted_at": "2026-09-23T06:42:24Z",
+  "submitted_at": "2026-09-25T09:46:29Z",
   "result": {
     "ran": true,
     "passed": [
-      "ch05-e1",
-      "ch05-e2"
+      "ch01-e1"
     ],
     "failed": [],
     "not_reached": [],
     "scored": true,
-    "score": 200,
-    "max_score": 200
+    "score": 100,
+    "max_score": 100
   },
-  "note": "",
+  "note": "assistant-driven, so it cannot be re-run; the marks rest on the evidence you saved",
   "help": {
     "hinted": 0,
     "revealed": 0,
@@ -30,9 +29,8 @@
   },
   "evidence": {
     "notebook": "notebook.ipynb",
-    "notebook_sha256": "94f67a24b765d4ee1a7615f0546de77db80a11cd32e5176d4a5931777911d765",
-    "challenge_sha256": "42cae50bfa6ac9f60621e303dec3ba1a34d3fc6b81a40a6671dcad91804b4ad4"
+    "notebook_sha256": "9a7586ddb64893848e42718d524e1f5a5bf5e6f042baa5896d487fa872cd6000"
   },
   "verified": null,
-  "submission_id": "sub_f8a318b95ff82bdac5889ae9"
+  "submission_id": "sub_368372c9e8efeec4e1ffe976"
 }
