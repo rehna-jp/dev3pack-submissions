@@ -1,23 +1,21 @@
 {
   "schema": "dev3pack.submission.v2",
   "cohort": "2026-09",
-  "chapter": "ch12",
+  "chapter": "ch14",
   "student": {
     "github": "nizalia0206"
   },
-  "submitted_at": "2026-09-30T16:20:35Z",
+  "submitted_at": "2026-10-02T09:49:46Z",
   "result": {
     "ran": true,
     "passed": [
-      "ch12-e2",
-      "ch12-e1",
-      "ch12-e3"
+      "ch14-e3"
     ],
     "failed": [],
     "not_reached": [],
     "scored": true,
-    "score": 300,
-    "max_score": 300
+    "score": 100,
+    "max_score": 100
   },
   "note": "",
   "help": {
@@ -31,8 +29,8 @@
   },
   "evidence": {
     "notebook": "notebook.ipynb",
-    "notebook_sha256": "d10785ce5cb50a09fa637ca9cd53fe4c213cd0ed8ff7fd859dec38984ce449e3"
+    "notebook_sha256": "29b911655162a0614c7d214d028f83ba3bc07766b4dfbfa5c880c4125e03601f"
   },
   "verified": null,
-  "submission_id": "sub_f5322afcb67b03d9567a1635"
+  "submission_id": "sub_2b82c057d952c19c20518bec"
 }

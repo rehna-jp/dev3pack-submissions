@@ -1,17 +1,17 @@
 {
   "schema": "dev3pack.submission.v2",
   "cohort": "2026-09",
-  "chapter": "ch12",
+  "chapter": "ch11",
   "student": {
-    "github": "nizalia0206"
+    "github": "JuliaGastellu"
   },
-  "submitted_at": "2026-09-30T16:20:35Z",
+  "submitted_at": "2026-10-02T12:43:16Z",
   "result": {
     "ran": true,
     "passed": [
-      "ch12-e2",
-      "ch12-e1",
-      "ch12-e3"
+      "ch11-e1",
+      "ch11-e2",
+      "ch11-e3"
     ],
     "failed": [],
     "not_reached": [],
@@ -26,13 +26,13 @@
     "cost": 0
   },
   "environment": {
-    "python": "3.11.15",
+    "python": "3.11.4",
     "platform": "windows"
   },
   "evidence": {
     "notebook": "notebook.ipynb",
-    "notebook_sha256": "d10785ce5cb50a09fa637ca9cd53fe4c213cd0ed8ff7fd859dec38984ce449e3"
+    "notebook_sha256": "6b2bebcf85ddd110305f9bb689a092656868a568ae6bcfc90454091f00859182"
   },
   "verified": null,
-  "submission_id": "sub_f5322afcb67b03d9567a1635"
+  "submission_id": "sub_c76fd977da641d2ed9c04221"
 }
