@@ -137,8 +137,8 @@ jobs:
             exit 0
           fi
           # `|| true` on the grep alone, which exits 1 when nothing matches.
-          git diff --name-only --diff-filter=AM "$BEFORE..$after" > merged.txt
-          finals="$(grep -cE '^submissions/[^/]+/final/answers\.json$' merged.txt || true)"
+          git diff --name-only --no-renames --diff-filter=AM "$BEFORE..$after" > merged.txt
+          finals="$(grep -cE '^submissions/[^/]+/final/(answers|submission)\.json$' merged.txt || true)"
           if [ "$finals" = "0" ]; then
             echo "no final among this run's merges"
             exit 0

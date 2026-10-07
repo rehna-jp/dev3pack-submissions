@@ -27,6 +27,7 @@ from pathlib import Path
 
 # Run as `python3 scripts/check_bundle.py`, so its own directory is on the path.
 from check_final import FINAL, final_problems
+from check_gecko import GECKO, gecko_problems
 
 #: Must match `bootcamp_agent.submission.SCHEMA` in the course repository.
 SCHEMA = "dev3pack.submission.v2"
@@ -88,6 +89,10 @@ def problems_with(directory: Path) -> list[str]:
     # request's author; no homework item can be called `final` (see ITEM).
     if directory.name == FINAL:
         return final_problems(directory)
+    # The Gecko capstone hand-in is a link to the student's own repository,
+    # routed the same way. `gecko` cannot collide with a homework item either.
+    if directory.name == GECKO:
+        return gecko_problems(directory)
     found: list[str] = []
     claim_path = directory / "submission.json"
     notebook = directory / "notebook.ipynb"
@@ -349,6 +354,18 @@ def main(argv: list[str] | None = None) -> int:
 
     failed = False
     for directory in directories:
+        # A bundle is exactly submissions/<you>/<item>. A folder one level deeper
+        # passed the item's own rules and merged where nothing reads it: a final
+        # uploaded as submissions/<you>/final/<you>/final/ was never scored (5 Oct).
+        parts = directory.as_posix().rstrip("/").split("/")
+        root = len(parts) - 1 - parts[::-1].index("submissions") if "submissions" in parts else -1
+        if root < 0 or len(parts) - root != 3:
+            failed = True
+            print(
+                f"::error::{directory}: files must sit exactly at submissions/<you>/<item>/, "
+                "for example submissions/octocat/final/answers.json. Move them up to that folder."
+            )
+            continue
         found = problems_with(directory)
         if found:
             failed = True
