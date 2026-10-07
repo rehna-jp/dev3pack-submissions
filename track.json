@@ -8902,6 +8902,25 @@
     },
     {
       "github": "rehna-jp",
+      "item": "cap01",
+      "submitted_at": "2026-10-07T12:53:13Z",
+      "ran": true,
+      "passed": [
+        "cap01-e1",
+        "cap01-e2",
+        "cap01-e3",
+        "cap01-e4",
+        "cap01-e5"
+      ],
+      "failed": [],
+      "not_reached": [],
+      "scored": true,
+      "score": 500,
+      "max_score": 500,
+      "tier": "claimed"
+    },
+    {
+      "github": "rehna-jp",
       "item": "ch01",
       "submitted_at": "2026-09-15T16:24:12Z",
       "ran": true,
@@ -8970,7 +8989,7 @@
     {
       "github": "rehna-jp",
       "item": "ch05",
-      "submitted_at": "2026-09-20T03:40:58Z",
+      "submitted_at": "2026-10-07T12:47:39Z",
       "ran": true,
       "passed": [
         "ch05-e1",
@@ -9053,7 +9072,7 @@
     {
       "github": "rehna-jp",
       "item": "ch10",
-      "submitted_at": "2026-09-28T02:54:56Z",
+      "submitted_at": "2026-10-07T12:48:09Z",
       "ran": true,
       "passed": [
         "ch10-e1",
@@ -10084,9 +10103,9 @@
       "github": "rehna-jp",
       "gecko": {
         "repo": "https://github.com/rehna-jp/Dev3Pack-Gecko-Capstone-Project",
-        "commit": "00a68b1580d9b1591b5d84579eec76e0f5916151",
-        "url": "https://github.com/rehna-jp/Dev3Pack-Gecko-Capstone-Project/tree/00a68b1580d9b1591b5d84579eec76e0f5916151",
-        "submitted_at": "2026-10-05T11:29:20Z"
+        "commit": "fa0f0c9abc7be1ec770c64a91e6cee018f33401b",
+        "url": "https://github.com/rehna-jp/Dev3Pack-Gecko-Capstone-Project/tree/fa0f0c9abc7be1ec770c64a91e6cee018f33401b",
+        "submitted_at": "2026-10-07T12:30:04Z"
       },
       "final": {
         "percent": 100,
